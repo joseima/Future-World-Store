@@ -1,5 +1,5 @@
 "use client"
-import { use, useState } from 'react';
+import { useState } from 'react';
 import styles from './Description.module.sass';
 import Image from 'next/image';
 import classNames from 'classnames/bind';
@@ -26,7 +26,7 @@ export const Description = () => {
         </button>
       <div className={styles.Description__text}>
         <h2>Bring the future today</h2>
-        <p>Future World: Your Gateway to Tomorrow's Tech! Dive into a world of cutting-edge gadgets and gear. Stay ahead of the curve and redefine your digital lifestyle with us.</p>
+        <p>Future World: Your Gateway to Tomorrow&apos;s Tech! Dive into a world of cutting-edge gadgets and gear. Stay ahead of the curve and redefine your digital lifestyle with us.</p>
       </div>
     </section>
   )
