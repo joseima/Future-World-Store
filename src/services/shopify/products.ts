@@ -8,7 +8,7 @@ export const getProducts = async (id? : string) =>  {
             headers: new Headers({
                 'X-Shopify-Access-Token' : env.SHOPIFY_TOKEN 
             }),
-            //cache: 'force-cache'
+            //cache: 'force-cache' ---> default
             //cache: 'no-cache' ---> no recomendable
             next: {
                 revalidate: 3000,  //actualiza cache cada 3000 seg
